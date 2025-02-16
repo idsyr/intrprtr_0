@@ -1,0 +1,16 @@
+#+title: README: intrprtr_0
+#+author: idsyr
+
+* about
+Flex & Bison project example 
+* build
+#+begin_src bash
+mkdir build && cd build
+cmake ..
+make
+#+end_src
+* usage
+#+begin_src bash
+./intrprtr_0 ../program_set/factorial.dat
+10
+#+end_src
